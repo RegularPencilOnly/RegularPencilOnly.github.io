@@ -1,0 +1,192 @@
+body {
+  background-color: #101820;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header for top of page */
+
+.nav_header {
+  overflow: hidden;
+  background-color: #101820;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav_header a {
+  color: white;
+  background: #101820;
+  padding: 15px;
+  font-size: 25px;
+  font-family: Helvetica;
+  cursor: pointer;
+  float: left;
+  margin-left: 25px;
+}
+
+/*Name at Top*/
+
+#jacob_title {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-size: 75px;
+  margin: 200px 0px 100px 0px;
+}
+
+/*About Section*/
+
+#about_title {
+  color: white;
+  font-size: 75px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin: 200px 0px 50px 0px;
+}
+
+.about_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#picture_incircle {
+  border-radius: 50%;
+  float: left;
+  margin-top: 0px;
+}
+
+.words_section {
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 60%;
+  margin: 175px 200px 135px 100px;
+}
+
+/*Portfolio Section*/
+
+#portfolio_title {
+  color: white;
+  font-size: 75px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin: 200px 0px 300px 0px;
+}
+
+#languages_title {
+  color: white;
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+.languages_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 150px 250px 150px 250px;
+}
+
+.projects_title {
+  color: white;
+  font-size: 100px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+.project_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project_section > .project_contents {
+  background: white;
+  margin-top: 100px;
+  margin: 200px 200px 100px 200px;
+  width: 700px;
+  height: 1100px;
+  text-align: center;
+  background: tan;
+  font-size: 45px;
+  color: white;
+  font-family: helvetica;
+  padding-top: 10px;
+}
+
+.project_section p {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#project_picture1 {
+  margin-top: 25px;
+}
+
+.project_section h3 {
+  margin: 40px 0px 25px 0px;
+}
+
+.languages_used {
+  list-style-position: inside;
+  text-align: justify;
+  margin: 50px 0px 0px 150px;
+}
+
+/*Contacts Section*/
+
+#contacts_title {
+  color: white;
+  font-size: 75px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin: 200px 0px 200px 0px;
+}
+
+.contacts_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 150px 200px 100px 200px;
+}
+
+#gmail_logo {
+  margin-left: -25px;
+}
+
+.contacts_usernames1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 175px 250px 235px;
+}
+
+.contacts_usernames2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 390px 250px 125px;
+}
+
+.contacts_usernames > div {
+  font-size: 40px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#github_username {
+  margin-left: -80px;
+}
+
+#phone_username {
+  margin-right: -160px;
+}
